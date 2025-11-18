@@ -6,9 +6,9 @@ const PORT = process.env.PORT || 3000;
 
 let downloadCount = 0;
 
-// CORS for your custom domain
+// CORS
 app.use(cors({
-    origin: ['https://catsdevs.online', 'http://localhost:3000'] // Replace with your actual domain
+    origin: ['https://catsdevs.online', 'http://localhost:3000'] 
 }));
 
 app.use(express.json());
